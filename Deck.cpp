@@ -7,13 +7,13 @@ using namespace std;
 
 Deck::Deck(char s){
     switch (s){
-        case 'S':
+        case 'L':
             createLowADeck();
             break;
         case 'B':
             createBjDeck();
             break;
-        case 'P':
+        case 'H':
             createHighADeck();
             break;
     }
