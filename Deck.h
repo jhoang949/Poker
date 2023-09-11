@@ -16,8 +16,9 @@ private:
     vector<Card> cardStack;
 public:
     Deck(char deckType);
-    void createSTDDeck();
-    void createBJDeck();
+    void createLowADeck();
+    void createBjDeck();
+    void createHighADeck();
     vector<Card> getStack();
 
 };
