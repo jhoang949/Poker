@@ -8,7 +8,7 @@ Card::Card(unsigned val, char sut){
     value = val;
     suit = sut;
     switch (value){
-        case unsigned (1):
+        case 1:
             rank = "A";
             break;
         case 2:
@@ -46,6 +46,9 @@ Card::Card(unsigned val, char sut){
             break;
         case 13:
             rank = "K";
+            break;
+        case 14:
+            rank = "A";
             break;
     };
 }
